@@ -1,0 +1,19 @@
+body{
+    background-color: rgb(240,240,240);
+    margin-top: 50px;
+}
+.header{
+    margin-top: 30px;
+}
+.header_right{
+    text-align: right;
+}
+.totals{
+    position: relative;
+    left:77%;
+    width: 500px;
+}
+.values{
+float:right;
+text-align: right;
+}

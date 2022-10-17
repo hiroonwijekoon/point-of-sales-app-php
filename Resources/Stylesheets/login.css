@@ -1,0 +1,57 @@
+body
+{
+	background-color: rgb(240,240,240);
+}
+.login_box
+{
+	width: 380px;
+	height: 340px;
+	background-color: rgba(255,255,255,0.9);
+	position: absolute;
+	top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	border-radius: 9px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.login_box h2
+{
+	margin-top: 30px;
+	text-align: center;
+}
+#login_box
+{
+	margin-top: 10px;
+	width: 80%;
+	font-size: 17px;
+}
+.login_inputs
+{
+	width: 90%;
+	border:0px;
+	color: rgb(65,65,65);
+	margin-left: 5px;
+	background-color: rgba(0,0,0,0);
+}
+.login_button
+{
+	float: right;
+	width: 100px;
+	height: 40px;
+	font-size: 17px;
+	margin-top: 10px;
+}
+.fa-user,.fa-key
+{
+	color: rgb(65,65,65);
+}
+input:focus
+{
+    outline: none;
+}
+hr
+{
+	margin-top: -2px;
+}

@@ -1,0 +1,122 @@
+body
+{
+	background-color: rgb(245,245,245);
+	overflow-x: hidden;
+}
+#heading
+{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding-top: 10px;
+}
+.heading_image
+{
+	margin-top: -10px;
+}
+.search_elements
+{
+	font-size: 20px;
+}
+.search_button
+{
+	margin-top: -5px;
+	padding: 5px 10px;
+	font-size: 20px;
+}
+.table_add_new
+{
+	width: 80%;
+}
+.table_area
+{
+	background-color: rgb(255,255,255);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	overflow-x: scroll;
+	width: 100%;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+td
+{
+	width: 50px;
+	padding-left: 20px;
+	text-overflow: ellipsis;
+	overflow-x: hidden;
+	white-space: nowrap;
+}
+.update-modal-table{
+	width: 100%;
+}
+.update-modal-table .form-control{
+	width: 380px;
+}
+.update-modal-table td
+{
+	padding-bottom: 10px;
+	display: disabled;
+}
+
+.sidenav {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 220px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color:rgb(53, 58, 63); /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px;
+	z-index: auto;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #818181;
+	display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  .chevron
+{
+  float: right;
+  padding-top: 4px;
+  padding-right: 5px;;
+}
+
+.active_link
+{
+  color: aliceblue !important;
+}
+
+.body_content{
+	padding-left: 250px;
+	margin-top: 50px;
+	padding-right:20px;
+  }
+
+  .navbar
+  {
+	  position: fixed;
+	  width: 100%;
+	  top:0px;
+	  z-index: 99;
+  }
+  .table_area{
+	  height: 450px;
+  }
+  .search_text
+  {
+	  width: 80%;
+	  display: inline-block;
+  }
+
+
+
+/*SeachBox*/

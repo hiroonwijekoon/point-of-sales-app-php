@@ -1,0 +1,78 @@
+body
+{
+	background-color: rgb(245,245,245);
+	overflow-x: hidden;
+}
+#heading
+{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 50px;
+	padding-top: 10px;
+}
+.heading_image
+{
+	margin-top: -10px;
+}
+.sidenav {
+	height: 100%; /* Full-height: remove this if you want "auto" height */
+	width: 220px; /* Set the width of the sidebar */
+	position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+	z-index: 1; /* Stay on top */
+	top: 0; /* Stay at the top */
+	left: 0;
+	background-color:rgb(53, 58, 63); /* Black */
+	overflow-x: hidden; /* Disable horizontal scroll */
+	padding-top: 60px;
+	z-index: auto;
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	color: #818181;
+	display: block;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+	color: #f1f1f1;
+  }
+  .chevron
+{
+  float: right;
+  padding-top: 4px;
+  padding-right: 5px;;
+}
+
+.active_link
+{
+  color: aliceblue !important;
+}
+
+.body_content{
+	padding-left: 250px;
+	margin-top: 50px;
+	padding-right:20px;
+  }
+
+  .navbar
+  {
+	  position: fixed;
+	  width: 100%;
+	  top:0px;
+	  z-index: 99;
+  }
+
+.list_area{
+	padding: 20px 20px;
+}
+.table_area{
+	height: 300px;
+	border:1px solid darkgray;
+	border-radius: 5px;
+	overflow-y: scroll;
+	padding: 10px 10px;
+}

@@ -1,0 +1,27 @@
+body
+{
+	background-color: rgb(245,245,245);
+}
+#heading
+{
+	font-size: 30px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+.heading_image
+{
+	margin-top: -10px;
+}
+.body_area
+{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.table_area
+{
+	padding-top: 20px;
+	background-color: rgb(255,255,255);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius: 5px;
+	padding-bottom: 20px;
+}
